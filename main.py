@@ -52,3 +52,4 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, download_youtube
 
 print("🤖 Bot is running...")
 app.run_polling()
+# تغییر جزئی برای Railway Deploy
